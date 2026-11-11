@@ -303,13 +303,13 @@ const styles = StyleSheet.create({
   },
 
   readStatus: {
-    color: "#6554C0",
+    color: "#6c59d4",
     fontSize: 12,
     fontWeight: "bold",
   },
 
   unreadBadge: {
-    backgroundColor: "green",
+    backgroundColor: "#9a3434",
     width: 17,
     height: 17,
     borderRadius: 10,
