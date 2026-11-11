@@ -1,9 +1,13 @@
 import { Text, View, StyleSheet } from "react-native";
+import  Header  from "../../components/Header";
+import ContactList from "../../components/ContactList";
+
 
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text>Chat Mobile</Text>
+      <Header />
+      <ContactList />
     </View>
   );
 }
