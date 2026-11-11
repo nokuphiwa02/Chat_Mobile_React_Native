@@ -2,6 +2,7 @@ import { Text, View, StyleSheet } from "react-native";
 import  Header  from "../components/Header";
 // import ContactList from "../../components/ContactList";
 import MessageList from "../components/MessageList";
+import Button from "../components/Button";
 
 
 export default function Index() {
@@ -10,6 +11,7 @@ export default function Index() {
       <Header />
       {/* <ContactList /> */}
       <MessageList />
+      <Button />
     </View>
   );
 }

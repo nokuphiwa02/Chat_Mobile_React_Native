@@ -303,7 +303,7 @@ const styles = StyleSheet.create({
   },
 
   readStatus: {
-    color: "#6c59d4",
+    color: "#6554C0",
     fontSize: 12,
     fontWeight: "bold",
   },
