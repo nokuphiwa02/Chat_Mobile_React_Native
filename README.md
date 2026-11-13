@@ -26,7 +26,6 @@ A mobile chat application built with **React Native, Expo, and TypeScript**. The
 
 ## 📂 Project Structure
 
-```text
 Chat_Mobile_React_Native/
 │
 └── Chat_Mobile/
@@ -35,48 +34,38 @@ Chat_Mobile_React_Native/
     │   │   └── index.tsx
     │   │
     │   ├── components/
-    │   │   ├── Button.tsx
+    │   │   ├── Header.tsx
     │   │   ├── ContactList.tsx
-    │   │   └── Header.tsx
+    │   │   └── Message.tsx
+            └── Button.tsx
     │   │
     │   └── assets/
     │       └── images/
     │
     ├── package.json
     └── tsconfig.json
-```
 
 ## ⚙️ Installation and Setup
 
 ### 1. Clone the repository
 
-```bash
 git clone https://github.com/nokuphiwa02/Chat_Mobile_React_Native.git
-```
 
 ### 2. Navigate to the project folder
 
-```bash
-cd Chat_Mobile_React_Native/Chat_Mobile
-```
+cd Chat_Mobile
 
 ### 3. Install dependencies
 
-```bash
 npm install
-```
 
 ### 4. Start the Expo development server
 
-```bash
 npx expo start
-```
 
 To run using Expo Go with a tunnel:
 
-```bash
 npx expo start --go --tunnel
-```
 
 ## 📱 Running the Application
 
@@ -91,8 +80,8 @@ The application uses reusable components to keep the code organised and maintain
 
 - **Header:** Displays the application header.
 - **ContactList:** Displays contacts and their profile images.
+- **MessageList:** Displays the messaging interface.
 - **Button:** Reusable button component with icons.
-- **Message List:** Displays the messaging interface.
 
 ## 👩‍💻 Developer
 
@@ -100,10 +89,4 @@ The application uses reusable components to keep the code organised and maintain
 
 GitHub: [@nokuphiwa02](https://github.com/nokuphiwa02)
 
-## 📌 Project Status
 
-Currently under development. More messaging features and improvements will be added as development progresses.
-
----
-
-⭐ If you find this project interesting, feel free to explore the repository!
